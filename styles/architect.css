@@ -1,0 +1,9 @@
+/* work sans font form google sans font */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Work+Sans:wght@400;500;700;800&family=Zilla+Slab:wght@500&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-family: 'Zilla Slab', serif;
+}
