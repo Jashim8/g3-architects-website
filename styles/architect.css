@@ -33,17 +33,18 @@ header {
     border: 0;
 }
 
+.section-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.title {
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #131313;
-}
 
 nav>ul {
     display: flex;
@@ -120,8 +121,39 @@ main {
     font-weight: 700;
 }
 
-* responsive media queries */
+/* facts section */
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+}
 
+.facts-card-container .card-stats {
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.facts-card-container .card-title {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 5px;
+    padding: 30px;
+}
+
+.facts-card-container .card {
+    border: 2px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 40px 30px;
+
+}
+
+
+
+/* responsive media queries */
 /* mobile devices */
 @media screen and (max-width: 576px) {
     header {
